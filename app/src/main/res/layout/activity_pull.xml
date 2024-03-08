@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Push">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="357dp"
+        android:layout_height="677dp"
+        android:layout_marginTop="31dp"
+        android:text="Dzień treningowy &quot;pull&quot; koncentruje się na pracach nad mięśniami, które są angażowane podczas ruchów ciągnięcia, takimi jak mięśnie grzbietu, mięśnie łopatkowe, bicepsy i mięśnie obłe. Poniżej znajdziesz przykładowy trening na Pull day. Jak zawsze, upewnij się, że odpowiednio się rozgrzewasz przed treningiem, a także skonsultuj się z profesjonalistą, zwłaszcza jeśli masz jakiekolwiek schorzenia lub kontuzje.  Rozgrzewka:  5-10 minut kardio (bieżnia, rower, skakanka itp.). Seria dynamicznych rozciągających ćwiczeń dla mięśni pleców i ramion. Trening:  Martwy ciąg:  4 serie x 6-8 powtórzeń Wiosłowanie sztangielkami w opadzie:  3 serie x 10-12 powtórzeń Podciąganie na drążku szerokim uchwytem:  3 serie x maksymalna liczba powtórzeń Ściąganie wyciągu górnego do klatki:  3 serie x 10-12 powtórzeń Podciąganie sztangi do brody:  4 serie x 8-10 powtórzeń Uginanie ramion ze sztangielkami stojąc:  3 serie x 12-15 powtórzeń Uginanie ramion na modlitewniku (ez-bar):  3 serie x 10-12 powtórzeń Wiosłowanie na maszynie (dźwignia):  3 serie x 12-15 powtórzeń Dodatkowe ćwiczenia (opcjonalne):  Unoszenie ramion na boki hantlami: 3 serie x 12-15 powtórzeń (dla barków) Łopatki: 3 serie x 12-15 powtórzeń (np. face pulls, unoszenie łopatek) Biceps hammer curls (uginanie ramion ze sztangielkami): 3 serie x 12-15 powtórzeń Stretching i chłodzenie:  10-15 minut rozciągania mięśni pleców, bicepsów i barków. Tak jak wcześniej, dostosuj obciążenia do swojego poziomu zaawansowania, stosuj odpowiednią technikę wykonania ćwiczeń, i pamiętaj o regeneracji między treningami."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.962" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PULL"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="16dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

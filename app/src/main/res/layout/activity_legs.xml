@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Push">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="357dp"
+        android:layout_height="677dp"
+        android:layout_marginTop="31dp"
+        android:text="Dzień treningowy na nogi to kluczowy element kompleksowego programu treningowego. Obejmuje mięśnie ud, łydek, pośladki oraz mięśnie stabilizujące. Poniżej znajdziesz przykładowy trening na Leg Day. Jak zawsze, dostosuj obciążenia do swojego poziomu zaawansowania, korzystaj z poprawnej techniki i skonsultuj się z profesjonalistą, jeśli masz jakiekolwiek obawy dotyczące zdrowia.  Rozgrzewka:  5-10 minut kardio (bieżnia, rower, skakanka itp.). Seria dynamicznych rozciągających ćwiczeń dla mięśni nóg. Trening:  Przysiady ze sztangą:  4 serie x 8-12 powtórzeń Wyciskanie nogami na maszynie:  3 serie x 10-12 powtórzeń Wykroki ze sztangielkami:  3 serie x 12 kroków (każda noga) Prostowanie nóg na maszynie:  3 serie x 10-12 powtórzeń Rumuńskie martwe ciągi ze sztangą:  4 serie x 10-12 powtórzeń Wspięcia na palce (stojąc na maszynie):  4 serie x 15-20 powtórzeń Uginanie nóg leżąc na brzuchu (hamstring curls):  3 serie x 12-15 powtórzeń Mrtwe ciągi na maszynie (good mornings):  3 serie x 12-15 powtórzeń Dodatkowe ćwiczenia (opcjonalne):  Unoszenie bioder na maszynie: 3 serie x 15-20 powtórzeń Plank: 3 serie x 30-60 sekund (dla mięśni rdzenia) Stretching i chłodzenie:  10-15 minut rozciągania mięśni nóg, pośladków i łydek. Pamiętaj o zachowaniu odpowiedniej techniki podczas każdego ćwiczenia, kontroluj ruchy, i nie zapominaj o regeneracji między treningami. Trening na nogi może być intensywny, dlatego też dbaj o odpowiednią rehydrację i dostarczanie odpowiednich składników odżywczych po treningu."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.962" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LEGS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="16dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Push">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="357dp"
+        android:layout_height="677dp"
+        android:layout_marginTop="31dp"
+        android:text="Trening na dzień treningowy skupiający się na mięśniach &quot;push&quot; koncentruje się głównie na pracach nad mięśniami klatki piersiowej, ramion (przede wszystkim trójgłowym mięśniem ramienia), tricepsami i przednimi mięśniami nóg. Poniżej znajdziesz przykładowy trening na Push day. Pamiętaj jednak, że przed rozpoczęciem nowego programu treningowego zawsze warto skonsultować się z profesjonalistą, zwłaszcza jeśli masz jakiekolwiek schorzenia lub kontuzje.  Rozgrzewka:  5-10 minut kardio (bieżnia, rower, skakanka itp.). Seria dynamicznych rozciągających ćwiczeń dla klatki piersiowej, ramion i tricepsów. Trening:  Wyciskanie sztangi na płaskiej ławce:  4 serie x 8-12 powtórzeń Wyciskanie sztangi na skośnej ławce:  3 serie x 10-12 powtórzeń Ćwiczenia izolowane na klatkę piersiową - przyciąganie linki do klatki:  3 serie x 12-15 powtórzeń Wyciskanie hantli siedząc:  3 serie x 10-12 powtórzeń Wyciskanie hantli na maszynie skośnej:  3 serie x 12-15 powtórzeń Triceps pushdown na maszynie linkowej:  4 serie x 12-15 powtórzeń Francuskie wyciskanie sztangi (skłony):  3 serie x 10-12 powtórzeń Dipy na poręczach:  3 serie x maksymalna liczba powtórzeń Dodatkowe ćwiczenia (opcjonalne):  Face Pulls (przyciąganie liny wyciągu do twarzy): 3 serie x 12-15 powtórzeń (dla barków) Unoszenie bokiem hantli: 3 serie x 12-15 powtórzeń (dla barków) Wypychanie nóg na maszynie: 3 serie x 12-15 powtórzeń Stretching i chłodzenie:  10-15 minut rozciągania mięśni klatki piersiowej, ramion, tricepsów i nóg. Pamiętaj, aby dostosować obciążenia do swojego poziomu zaawansowania i stopniowo zwiększać intensywność treningu. Odpowiednie nawodnienie i odżywianie również są kluczowe dla regeneracji po treningu."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.962" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PUSH"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="16dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
